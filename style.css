@@ -46,3 +46,16 @@
     font-weight: bold;
 }
 
+.discount{
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight:300;
+   
+   
+}
+.discount h1 span{
+    color: red;
+    ;
+}
+
