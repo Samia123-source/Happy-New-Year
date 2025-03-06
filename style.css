@@ -1,6 +1,6 @@
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, sans-serif;
 }
 
@@ -46,16 +46,83 @@
     font-weight: bold;
 }
 
-.discount{
-    margin: 80px 0px 0px 0px;
+.discount h1{
+    margin: 100px 0px 0px 0px;
     text-align: center;
-    font-size: 24px;
-    font-weight:300;
-   
-   
+    font-size: 80px;
+    font-weight: bold;
+    color:red
 }
+.discount h3{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:red
+}
+.discount h2{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color:black
+}
+.discount-image{
+    margin: 50px;
+    width:100%;
+    text-align: center;
+   
+
+}
+
+
 .discount h1 span{
     color: red;
-    ;
+
+}
+
+.carousol{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    border-radius: 50%;
+    text-align: left;
+}
+.carousol::before {
+    content: "";
+    margin: 150px 0px 0px 0px;
+    border-radius:15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99.50%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.596); /* Dark overlay effect */
+}
+.carousol-image{
+    margin: 150px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    border-radius: 50%;
+    text-align: left;
+}
+.carousol-content h1{
+    margin: 0px 80px 0px 0px;
+    font-size:50px;
+    font-family: Arial,sans-serif;
+    color:rgba(255, 255, 255, 0.781)
+    
+
+}
+.carousol-content h3{
+    margin: 80px 0px 0px 80px;
+    text-align: left;
+    font-size:20px;
+    font-family: Arial,sans-serif;
+    color:rgba(255, 255, 255, 0.603)
+   
+
 }
 
