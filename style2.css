@@ -145,6 +145,7 @@
 .container{
     margin: 50 0 px;
     background-color: rgba(255, 182, 193, 0.623);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 .details{
@@ -165,15 +166,88 @@
     font-weight: bold;
     color:black;
 }
-.details h2 {
-    margin:50;
-    font-size:30px;
-    text-align: center ;
+
+.join-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    text-align: center;
+    color: white;
+   font-size: 16px;
     font-weight: bold;
-    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.join-btn:hover {
+    background-color: darkred;
+}
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+}
+    
+    .text-section {
+        max-width: 500px;
+        
+    }
+
+.text-section h2{
+    text-align: left;
+    color: red;
+    font-size:30px;
 
 }
-.details h2 button {
-    background-color: #f44336;
+
+.text-section h1{
+    margin: 0px 0px 50px 0px;
+    text-align: left;
+    color: black;
+    font-size: 50px;
+
+
 }
+.text-section p{
+    text-align: left;
+    color: rgba(128, 128, 128, 0.815);
+    font-size: 20px;
+
+}
+.image-circle{
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    padding: 40px 50px 10px 20px;
+    border-radius: 50% ;
+    border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Right-section h2{
+    width: 400px;
+
+    text-align: left;
+    font-weight:bold;
+    font-size:50px;
+    color:red;
+   
+}
+.Right-section p{
+    text-align: left;
+    color:gray;
+    font-size:30px;
+}
+
 
