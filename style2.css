@@ -252,76 +252,103 @@
 
 
 
-.sale-textsection h2{
+.sixth-section-top h2{
 text-align: center;
 color: red;
 font-size:30px;
 
 }
 
-.sale-textsection h1{
+ .sixth-section-top h1{
 margin: 0px 0px 50px 0px;
 text-align: center;
 color: red;
 font-size: 50px;
 }
 
-.sale-textsection psub{
+.sixth-section-top psub{
     margin: 0px 0px 50px 0px;
     text-align: center;
     color: black;
     font-size: 50px;
     }
     
-    .sale-textsection p{
+    .sixth-section-top p{
         margin: 0px 0px 50px 0px;
         text-align: center;
         color: gray;
         font-size: 20px;
         }
 
-        .sale-container {
+        .sixth-section-bottom {
+            width: 1320px;
+            height: 661px;
+            background-image: url(Rectangle\ 1.png), url(Rectangle\ 2.png);
+            background-repeat: no-repeat;
+            background-position: top right, bottom;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .sixth-section-bottom .one {
+            width: 650px;
+           height: 600px;
+           margin-top: 30px;
+           margin-left: 44px;
+        }
+
+        .sixth-section-bottom .two {
+            margin-right: 275px;
+            margin-top: 69px;
+            width: 300px;
+            height: 300px;
+        }
+        seventh-section{
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            max-width: 100%;
-           
+            flex-direction: column;
+            margin-bottom: 120px;
+        }
+        seventh-section-main{
+            width: 1320px;
+            align-items: start;
         }
         
-        .sale-image{
-
-            position: relative;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            border-radius: 50px;
-            align-items:right;
-            justify-content: right;
-            text-align: right;
-        }
-        .rectangle{
-            margin: 0px 0px 0px 20px;
-            position: relative;
-            width: 500%;
-            height: 500%;
-            display: flex;
-            border-radius: 50px;
-            align-items:right;
-            justify-content: right;
-            text-align: right;
-        }
-        .surprise{
-
-            position: relative;
-            width: 20%;;
-            height: 10%;
-            display: flex;
-            border-radius: 50px;
-            align-items:left;
-            justify-content: left;
+        seventh-section-main h2{
             text-align: left;
-         
+            color: red;
+            font-size:30px;
+        }
+        seventh-section-main h1{
+            text-align: left;
+            color: black;
+            font-size:50px;
+        }  
+        seventh-section-main p{
+            text-align: left;
+            color: gray;
+            font-size:20px;
 
-        } 
+        }      
+        .seventh-section .bottom {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
 
-        
+        }
+
+        .seventh-section .bottom img {
+            width: 424px;
+            height: 450px;
+            border-radius: 16px;
+            margin-bottom: 24px;
+        }
+
+        .bottom img:hover {
+            box-shadow: 5px 10px 10px 5px rgba(58, 0, 0, 0.2);
+            transition: 400ms;
+
+        }
